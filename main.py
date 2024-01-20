@@ -114,7 +114,7 @@ btn6.grid(column=0, row=3)
 btn7 = Button(window, text="Максимальное количество отзывов на район", command=max_numb)
 btn7.grid(column=1, row=3)
 
-list = pd.read_csv("dataset/Airbnb_dataset.csv")
+list = pd.read_csv("Airbnb_dataset.csv")
 
 # Display the first 5 rows
 list.head(5)
